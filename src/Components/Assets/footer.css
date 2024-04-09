@@ -1,0 +1,16 @@
+.foot {
+  margin: 15px auto;
+  display: flex;
+  margin-left: 30%;
+  margin-bottom: 0px;
+  
+}
+.copyrights {
+  display: inline-block;
+  margin-right: 2em;
+}
+.foot1 {
+  display: flex;
+  margin-bottom: 0px;
+}
+

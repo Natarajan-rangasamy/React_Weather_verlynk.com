@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { DashBoard } from './Components/DashBoard';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div className='container'>
+      <div className='App'>
+          <App />
+      </div>
+         <div className='dashboard'>
+          <DashBoard />
+         </div>
+         
+    </div>
+    
   </React.StrictMode>
 );
 

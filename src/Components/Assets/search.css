@@ -1,0 +1,25 @@
+
+.City-input {
+  outline: none;
+  border: none;
+  width: 90%;
+  background: transparent;
+  font-size: 1em;
+  cursor: pointer;
+}
+.Container{
+    border: 2px solid grey;
+    width:41%;
+    padding:10px 15px;
+    border-radius: 10px;
+    margin: 20px auto;
+    margin-left: 35%;
+    background-color: grey;
+    cursor: pointer;
+}
+.search-icon{
+    position: absolute;
+    align-items: end;
+}
+
+

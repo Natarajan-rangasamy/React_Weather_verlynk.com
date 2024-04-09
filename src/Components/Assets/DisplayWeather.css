@@ -1,0 +1,38 @@
+.Weather-container {
+  border: 1px solid grey;
+  width: 60%;
+  margin: 30px auto;
+  height: fit-content;
+  border-radius: 10px;
+  box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 40px;
+}
+.Weather-details {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: rgb(132, 232, 25);
+  border-radius: 5px;
+}
+@media screen and (min-width: 900px) {
+  .Weather-container {
+    width: 40%;
+  }
+}
+.sty{
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 30em;
+  margin-left:15% ;
+  box-shadow: 3px 5px 10px black;
+  background: url();
+  
+}
+hr{
+  width: 120%;
+  margin-left: 15px;
+}
